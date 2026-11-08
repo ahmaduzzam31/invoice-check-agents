@@ -1,0 +1,30 @@
+{
+  "seed": 42,
+  "suppliers": 12,
+  "contracts": 12,
+  "invoices": 60,
+  "invoices_with_problems": 20,
+  "invoices_clean": 40,
+  "scenario_counts": {
+    "clean": 32,
+    "clean_partial_delivery": 2,
+    "clean_po_format_variant": 2,
+    "clean_price_below_contract": 1,
+    "clean_same_amount_other_supplier": 1,
+    "clean_second_delivery": 2,
+    "duplicate": 4,
+    "missing_po": 4,
+    "price_above_contract": 4,
+    "prompt_injection": 2,
+    "qty_above_delivery": 4,
+    "total_mismatch": 2
+  },
+  "money_at_risk_net_total": 45738.22,
+  "db_rows": {
+    "purchase_orders": 96,
+    "po_lines": 251,
+    "deliveries": 253,
+    "invoices_received": 43,
+    "stock": 60
+  }
+}
