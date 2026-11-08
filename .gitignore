@@ -1,0 +1,35 @@
+# Secrets: API keys (Pinecone and any paid model) only ever live in .env, never in git
+.env
+.env.*
+!.env.example
+
+# Python virtual environment and caches
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Generated simulated data: rebuilt exactly by the data script (fixed seed)
+data/generated/
+
+# Local databases: simulated SQLite tables, agent checkpoints, TruLens traces
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# Vector database and model files
+chroma_db/
+*.bin
+*.pkl
+.cache/
+models/
+
+# Local tool settings and logs
+.claude/
+.playwright-mcp/
+
+# Mac and editor files
+.DS_Store
+.vscode/
+.idea/
