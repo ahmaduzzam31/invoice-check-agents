@@ -1,0 +1,38 @@
+# Start everything:   docker compose up --build
+# API docs:            http://localhost:8000/docs
+# App:                 http://localhost:8501
+# Needs Ollama running on the host with qwen2.5:7b and nomic-embed-text, and a .env with PINECONE_API_KEY.
+
+services:
+  api:
+    build: .
+    image: invoice-check-agents:latest
+    env_file: .env                     # Pinecone key is passed in at run time, never built into the image
+    environment:
+      OLLAMA_BASE_URL: http://host.docker.internal:11434
+      DATA_SET: ${DATA_SET:-test}
+    ports:
+      - "127.0.0.1:8000:8000"          # reachable from this computer only
+    volumes:
+      - state:/app/state               # audit log and paused runs survive restarts
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 10s
+      timeout: 5s
+      retries: 6
+
+  app:
+    image: invoice-check-agents:latest
+    depends_on:
+      api:
+        condition: service_healthy
+    environment:
+      API_URL: http://api:8000
+      DATA_SET: ${DATA_SET:-test}
+    command: ["streamlit", "run", "app.py", "--server.address", "0.0.0.0", "--server.port", "8501",
+              "--server.headless", "true", "--browser.gatherUsageStats", "false"]
+    ports:
+      - "127.0.0.1:8501:8501"
+
+volumes:
+  state:

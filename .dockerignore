@@ -1,0 +1,15 @@
+# Never copy secrets, the local virtual environment or local data into the image
+.env
+.env.*
+.venv/
+.git/
+data/
+results/
+docs/
+__pycache__/
+*.pyc
+*.db
+.pytest_cache/
+.claude/
+.playwright-mcp/
+.DS_Store
