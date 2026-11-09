@@ -13,13 +13,15 @@ Writes:
                                      expected decision and money at risk
   results/data_summary.json          counts used in the README
 
-Run:  .venv/bin/python scripts/generate_data.py
+Run:  .venv/bin/python scripts/generate_data.py          (test set, seed 42)
+      .venv/bin/python scripts/generate_data.py --dev    (development set, seed 7, in data/dev/)
 """
 
 import json
 import random
 import shutil
 import sqlite3
+import sys
 from datetime import date, timedelta
 from pathlib import Path
 
@@ -483,7 +485,21 @@ def write_db(b: Builder) -> None:
     con.close()
 
 
+def use_dev_set() -> None:
+    """A separate development set (different seed, own folder). Prompts are tuned on this set only,
+    so the 60 test invoices stay unseen until the final evaluation."""
+    global SEED, GEN, INV_DIR, CTR_DIR, DB_PATH, ANSWER_KEY, SUMMARY
+    SEED = 7
+    GEN = ROOT / "data" / "dev"
+    INV_DIR, CTR_DIR = GEN / "invoices", GEN / "contracts"
+    DB_PATH = GEN / "erp_simulated.db"
+    ANSWER_KEY = GEN / "answer_key.json"
+    SUMMARY = GEN / "data_summary.json"
+
+
 def main() -> None:
+    if "--dev" in sys.argv:
+        use_dev_set()
     if GEN.exists():
         shutil.rmtree(GEN)
     INV_DIR.mkdir(parents=True)
@@ -501,7 +517,7 @@ def main() -> None:
     write_db(b)
 
     ANSWER_KEY.write_text(json.dumps({
-        "about": "SIMULATED answer key created by scripts/generate_data.py (seed 42). Printed fields are what "
+        "about": f"SIMULATED answer key created by scripts/generate_data.py (seed {SEED}). Printed fields are what "
                  "appears on the PDF; problems are the planted issues; money_at_risk_net is the amount excl. VAT "
                  "that would be wrongly paid (full net total for duplicates and missing POs; the gross "
                  "difference for total mismatches).",
