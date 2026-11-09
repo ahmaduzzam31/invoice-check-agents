@@ -54,8 +54,10 @@ def main() -> None:
              "index": config.PINECONE_INDEX, "namespace": NAMESPACE, "embedding_model": config.EMBED_MODEL,
              "dimension": DIMENSION, "contracts": len(seen), "sections": len(docs),
              "vectors_in_namespace": count, "embed_and_upload_seconds": seconds}
-    config.RESULTS_DIR.mkdir(exist_ok=True)
-    (config.RESULTS_DIR / "contract_index_stats.json").write_text(json.dumps(stats, indent=2) + "\n")
+    # results/ only ever holds test-set numbers; dev-set stats stay next to the dev data
+    out_dir = config.RESULTS_DIR if config.DATA_SET == "test" else config.GENERATED_DIR
+    out_dir.mkdir(exist_ok=True)
+    (out_dir / "contract_index_stats.json").write_text(json.dumps(stats, indent=2) + "\n")
     print(json.dumps(stats, indent=2))
 
 

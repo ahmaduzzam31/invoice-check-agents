@@ -13,7 +13,7 @@ from langchain_core.documents import Document
 from src import config, sql_tools
 from src.models import get_embeddings
 
-NAMESPACE = "contracts"
+NAMESPACE = config.CONTRACT_NAMESPACE  # "contracts" (test set) or "contracts-dev" (dev set)
 DIMENSION = 768  # nomic-embed-text
 NOISE = "SIMULATED DATA - NOT A REAL DOCUMENT - CREATED FOR A PORTFOLIO PROJECT"
 HEADING = re.compile(r"^(\d+\. .+|Schedule 1: .+)$")

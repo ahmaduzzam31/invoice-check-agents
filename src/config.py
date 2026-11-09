@@ -21,10 +21,22 @@ OLLAMA_BASE_URL = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434")
 PINECONE_API_KEY = os.getenv("PINECONE_API_KEY", "")
 PINECONE_INDEX = os.getenv("PINECONE_INDEX", "invoice-contracts")
 
+# Which simulated data set to use: "test" (seed 42, the 60 evaluation invoices) or
+# "dev" (seed 7, used only to develop and tune prompts). One setting switches the database,
+# the invoices, the answer key and the Pinecone namespace together.
+DATA_SET = os.getenv("DATA_SET", "test")
+if DATA_SET == "dev":
+    GENERATED_DIR = ROOT / "data" / "dev"
+    ANSWER_KEY = GENERATED_DIR / "answer_key.json"
+    CONTRACT_NAMESPACE = "contracts-dev"
+else:
+    GENERATED_DIR = ROOT / "data" / "generated"
+    ANSWER_KEY = ROOT / "eval" / "answer_key.json"
+    CONTRACT_NAMESPACE = "contracts"
+
 # Paths (DB_PATH can be overridden, for example inside Docker)
-GENERATED_DIR = ROOT / "data" / "generated"
 INVOICE_DIR = GENERATED_DIR / "invoices"
 CONTRACT_DIR = GENERATED_DIR / "contracts"
 DB_PATH = Path(os.getenv("DB_PATH", str(GENERATED_DIR / "erp_simulated.db")))
-ANSWER_KEY = ROOT / "eval" / "answer_key.json"
+CHECKPOINT_DB = ROOT / "data" / "checkpoints.db"  # saved agent runs, so a paused invoice can resume
 RESULTS_DIR = ROOT / "results"
