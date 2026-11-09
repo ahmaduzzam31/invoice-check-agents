@@ -38,5 +38,8 @@ else:
 INVOICE_DIR = GENERATED_DIR / "invoices"
 CONTRACT_DIR = GENERATED_DIR / "contracts"
 DB_PATH = Path(os.getenv("DB_PATH", str(GENERATED_DIR / "erp_simulated.db")))
-CHECKPOINT_DB = ROOT / "data" / "checkpoints.db"  # saved agent runs, so a paused invoice can resume
+CHECKPOINT_DB = Path(os.getenv("CHECKPOINT_DB", str(ROOT / "data" / "checkpoints.db")))  # paused runs resume
+AUDIT_DB = Path(os.getenv("AUDIT_DB", str(ROOT / "data" / "audit.db")))  # who decided what, when
+UPLOAD_DIR = ROOT / "data" / "uploads"  # PDFs sent to the API
+MAX_UPLOAD_BYTES = 5 * 1024 * 1024
 RESULTS_DIR = ROOT / "results"

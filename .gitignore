@@ -12,6 +12,7 @@ __pycache__/
 # Generated simulated data: rebuilt exactly by the data script (fixed seed)
 data/generated/
 data/dev/
+data/uploads/
 
 # Local databases: simulated SQLite tables, agent checkpoints, TruLens traces
 *.db
