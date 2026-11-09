@@ -1,0 +1,166 @@
+{
+  "run_started_utc": "2026-11-09T19:41:38Z",
+  "run_finished_utc": "2026-11-09T21:21:10Z",
+  "this_session_seconds": 3423.4,
+  "data_set": "test",
+  "settings": {
+    "model": "ollama:qwen2.5:7b",
+    "temperature": 0.0,
+    "embedding_model": "nomic-embed-text",
+    "contract_store": "pinecone:invoice-contracts"
+  },
+  "systems": {
+    "agent": {
+      "invoices": 60,
+      "errors": 0,
+      "invoices_with_problems": 20,
+      "clean_invoices": 40,
+      "problem_invoices_flagged": 20,
+      "problem_invoices_missed": 0,
+      "clean_invoices_flagged_false_alarms": 2,
+      "clean_invoices_approved": 38,
+      "recall": 1.0,
+      "false_alarm_rate": 0.05,
+      "precision": 0.9091,
+      "f1": 0.9524,
+      "decision_accuracy": 0.9667,
+      "exact_problem_match": 59,
+      "per_problem_type": {
+        "price_above_contract": {
+          "planted": 6,
+          "detected": 6,
+          "reported_where_not_planted": 0
+        },
+        "qty_above_delivery": {
+          "planted": 4,
+          "detected": 4,
+          "reported_where_not_planted": 0
+        },
+        "duplicate": {
+          "planted": 4,
+          "detected": 4,
+          "reported_where_not_planted": 0
+        },
+        "missing_po": {
+          "planted": 4,
+          "detected": 4,
+          "reported_where_not_planted": 0
+        },
+        "total_mismatch": {
+          "planted": 2,
+          "detected": 2,
+          "reported_where_not_planted": 0
+        },
+        "prompt_injection": {
+          "planted": 2,
+          "detected": 2,
+          "reported_where_not_planted": 1
+        }
+      },
+      "money_at_risk_planted_net": 45738.22,
+      "money_at_risk_caught_net": 45738.22,
+      "money_caught_share": 1.0,
+      "flagged_problem_invoices_with_exact_money": 20,
+      "auto_approved": 38,
+      "auto_approved_correctly": 38,
+      "straight_through_rate": 0.6333,
+      "seconds_mean": 43.05,
+      "seconds_median": 40.49,
+      "seconds_max": 115.27,
+      "seconds_total": 2583.1,
+      "agent_details": {
+        "extraction": {
+          "invoices": 60,
+          "per_field_accuracy": {
+            "supplier_name": 1.0,
+            "supplier_vat_number": 1.0,
+            "invoice_number": 1.0,
+            "invoice_date": 1.0,
+            "po_number": 1.0,
+            "net_total": 1.0,
+            "vat_amount": 1.0,
+            "gross_total": 1.0,
+            "lines": 1.0
+          },
+          "mean_field_accuracy": 1.0,
+          "invoices_fully_correct": 60
+        },
+        "extraction_failures": 0,
+        "extraction_self_check_retries": 4,
+        "supervisor_routing_steps": 300,
+        "supervisor_choices_corrected_by_code": 0,
+        "supervisor_choice_agreement": 1.0,
+        "matcher_invoices": 60,
+        "matcher_invoices_without_fallback": 58,
+        "matcher_fallback_calls_total": 2,
+        "matcher_fallbacks_by_tool": {
+          "find_supplier": 0,
+          "get_purchase_order": 0,
+          "get_deliveries": 0,
+          "find_possible_duplicates": 2
+        },
+        "invoices_with_unverified_contract_price": 2,
+        "invoices_with_any_unverified_check": 6
+      }
+    },
+    "baseline": {
+      "invoices": 60,
+      "errors": 0,
+      "invoices_with_problems": 20,
+      "clean_invoices": 40,
+      "problem_invoices_flagged": 20,
+      "problem_invoices_missed": 0,
+      "clean_invoices_flagged_false_alarms": 40,
+      "clean_invoices_approved": 0,
+      "recall": 1.0,
+      "false_alarm_rate": 1.0,
+      "precision": 0.3333,
+      "f1": 0.5,
+      "decision_accuracy": 0.3333,
+      "exact_problem_match": 4,
+      "per_problem_type": {
+        "price_above_contract": {
+          "planted": 6,
+          "detected": 5,
+          "reported_where_not_planted": 32
+        },
+        "qty_above_delivery": {
+          "planted": 4,
+          "detected": 3,
+          "reported_where_not_planted": 34
+        },
+        "duplicate": {
+          "planted": 4,
+          "detected": 0,
+          "reported_where_not_planted": 0
+        },
+        "missing_po": {
+          "planted": 4,
+          "detected": 4,
+          "reported_where_not_planted": 19
+        },
+        "total_mismatch": {
+          "planted": 2,
+          "detected": 1,
+          "reported_where_not_planted": 36
+        },
+        "prompt_injection": {
+          "planted": 2,
+          "detected": 2,
+          "reported_where_not_planted": 34
+        }
+      },
+      "money_at_risk_planted_net": 45738.22,
+      "money_at_risk_caught_net": 45738.22,
+      "money_caught_share": 1.0,
+      "flagged_problem_invoices_with_exact_money": 3,
+      "auto_approved": 0,
+      "auto_approved_correctly": 0,
+      "straight_through_rate": 0.0,
+      "seconds_mean": 14.0,
+      "seconds_median": 11.89,
+      "seconds_max": 72.25,
+      "seconds_total": 840.1
+    }
+  }
+}

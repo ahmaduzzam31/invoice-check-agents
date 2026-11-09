@@ -1,0 +1,1247 @@
+60 invoices (test set), systems: agent, baseline, output: /Users/ahmaduzzam/Desktop/ai-projects/invoice-check-agents/results
+[agent] 0 already done, 60 to run
+[11/09/26 19:41:57] INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:41:58] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:42:00] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:42:02] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:42:06] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 1/60 INV001 clean: approve [] (42.03 s)
+[11/09/26 19:42:40] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:42:41] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+[11/09/26 19:42:43] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+[11/09/26 19:42:46] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+[11/09/26 19:42:46] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 2/60 INV002 missing_po: flag ['missing_po'] (41.34 s)
+[11/09/26 19:43:41] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:43:43] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:43:45] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:43:50] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 3/60 INV003 clean: approve [] (80.68 s)
+[11/09/26 19:44:52] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:44:54] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:44:56] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:45:00] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 4/60 INV004 clean: approve [] (50.36 s)
+[11/09/26 19:45:32] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:45:33] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:45:35] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:45:38] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 5/60 INV005 missing_po: flag ['missing_po'] (41.11 s)
+[11/09/26 19:46:15] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:46:16] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:46:18] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:46:22] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 6/60 INV006 prompt_injection: flag ['price_above_contract', 'prompt_injection'] (45.27 s)
+[11/09/26 19:46:58] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:47:00] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:47:02] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:47:06] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 7/60 INV007 clean: approve [] (38.96 s)
+[11/09/26 19:47:39] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:47:40] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:47:42] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:47:46] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 8/60 INV008 duplicate: flag ['duplicate'] (44.11 s)
+[11/09/26 19:48:20] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:48:21] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:48:23] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:48:27] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 9/60 INV009 qty_above_delivery: flag ['qty_above_delivery'] (39.48 s)
+[11/09/26 19:49:05] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:49:07] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:49:09] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:49:13] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 10/60 INV010 clean: approve [] (46.53 s)
+[11/09/26 19:49:49] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:49:50] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:49:53] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:49:56] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 11/60 INV011 clean: approve [] (40.68 s)
+[11/09/26 19:50:28] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:50:30] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:50:32] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:50:35] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 12/60 INV012 prompt_injection: flag ['price_above_contract', 'prompt_injection'] (42.76 s)
+[11/09/26 19:51:12] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:51:14] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:51:16] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:51:20] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 13/60 INV013 duplicate: flag ['duplicate'] (43.85 s)
+[11/09/26 19:51:59] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:52:01] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:52:03] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:52:07] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 14/60 INV014 qty_above_delivery: flag ['qty_above_delivery'] (47.86 s)
+[11/09/26 19:52:48] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:52:50] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:52:52] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:52:56] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 15/60 INV015 clean: approve [] (47.65 s)
+[11/09/26 19:53:43] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:53:44] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+[11/09/26 19:53:45] INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:53:46] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:53:50] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 16/60 INV016 price_above_contract: flag ['price_above_contract'] (56.09 s)
+[11/09/26 19:54:25] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:54:26] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:54:28] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:54:32] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 17/60 INV017 clean: approve [] (38.1 s)
+[11/09/26 19:55:01] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:55:03] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:55:05] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:55:08] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 18/60 INV018 duplicate: flag ['duplicate'] (37.35 s)
+[11/09/26 19:55:45] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:55:47] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:55:49] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:55:53] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 19/60 INV019 clean: approve [] (44.15 s)
+[11/09/26 19:56:27] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:56:28] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+[11/09/26 19:56:30] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+[11/09/26 19:56:33] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+[11/09/26 19:56:34] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 20/60 INV020 missing_po: flag ['missing_po'] (42.93 s)
+[11/09/26 19:57:09] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:57:11] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:57:13] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:57:16] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 21/60 INV021 clean: approve [] (38.87 s)
+[11/09/26 19:57:47] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:57:49] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:57:50] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:57:54] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 22/60 INV022 clean: approve [] (38.17 s)
+[11/09/26 19:58:24] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:58:26] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:58:28] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:58:31] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 23/60 INV023 clean_po_format_variant: approve [] (36.12 s)
+[11/09/26 19:59:03] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:59:04] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:59:06] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:59:10] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 24/60 INV024 clean: approve [] (40.3 s)
+[11/09/26 19:59:41] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:59:43] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:59:45] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 19:59:48] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 25/60 INV025 clean: approve [] (37.03 s)
+[11/09/26 20:00:15] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:00:16] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:00:18] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:00:22] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 26/60 INV026 clean_second_delivery: approve [] (32.95 s)
+[11/09/26 20:00:51] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:00:53] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:00:55] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:00:58] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 27/60 INV027 clean: approve [] (37.18 s)
+[11/09/26 20:01:34] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:01:36] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:01:38] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:01:42] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 28/60 INV028 clean: approve [] (45.16 s)
+[11/09/26 20:02:20] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:02:22] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:02:25] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:02:29] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 29/60 INV029 clean: approve [] (48.26 s)
+[11/09/26 20:02:59] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:03:01] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:03:03] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:03:06] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 30/60 INV030 clean: approve [] (31.57 s)
+[11/09/26 20:03:33] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:03:35] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:03:37] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:03:40] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 31/60 INV031 price_above_contract: flag ['price_above_contract'] (40.54 s)
+[11/09/26 20:04:14] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:04:15] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:04:17] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:04:21] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 32/60 INV032 clean: approve [] (36.42 s)
+[11/09/26 20:05:09] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:05:10] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:05:13] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:05:16] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 33/60 INV033 clean: approve [] (57.35 s)
+[11/09/26 20:05:46] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:05:48] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:05:50] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:05:54] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 34/60 INV034 clean: approve [] (34.29 s)
+[11/09/26 20:06:21] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:06:22] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:06:24] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:06:27] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 35/60 INV035 missing_po: flag ['missing_po'] (38.31 s)
+[11/09/26 20:06:56] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:06:57] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:06:59] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:07:02] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 36/60 INV036 clean_same_amount_other_supplier: approve [] (30.15 s)
+[11/09/26 20:07:58] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:08:00] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:08:02] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:08:07] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 37/60 INV037 clean: approve [] (70.0 s)
+[11/09/26 20:08:44] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:08:45] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:08:48] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:08:52] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 38/60 INV038 clean: approve [] (44.73 s)
+[11/09/26 20:09:24] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:09:26] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:09:28] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:09:31] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 39/60 INV039 clean: approve [] (35.6 s)
+[11/09/26 20:10:06] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:10:08] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:10:10] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:10:14] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 40/60 INV040 clean_partial_delivery: approve [] (47.52 s)
+[11/09/26 20:10:54] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:10:56] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:10:58] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:11:02] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 41/60 INV041 clean: flag [] (49.19 s)
+[11/09/26 20:11:35] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:11:36] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:11:38] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:11:41] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 42/60 INV042 clean_price_below_contract: approve [] (32.64 s)
+[11/09/26 20:12:12] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:12:14] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:12:16] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:12:20] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 43/60 INV043 clean: approve [] (41.28 s)
+[11/09/26 20:55:03] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:55:09] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:55:14] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:55:22] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 44/60 INV044 qty_above_delivery: flag ['qty_above_delivery'] (115.27 s)
+[11/09/26 20:57:16] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:57:17] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:57:19] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:57:22] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 45/60 INV045 price_above_contract: flag ['price_above_contract'] (40.44 s)
+[11/09/26 20:57:58] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:57:59] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:58:01] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:58:05] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 46/60 INV046 clean: approve [] (39.2 s)
+[11/09/26 20:58:33] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:58:34] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:58:36] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:58:39] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 47/60 INV047 clean: approve [] (32.72 s)
+[11/09/26 20:59:04] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:59:05] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:59:07] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:59:10] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 48/60 INV048 duplicate: flag ['duplicate', 'prompt_injection'] (32.42 s)
+[11/09/26 20:59:34] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:59:36] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:59:38] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 20:59:40] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 49/60 INV049 total_mismatch: flag ['total_mismatch'] (30.41 s)
+[11/09/26 21:00:09] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 21:00:11] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 21:00:13] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 21:00:16] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 50/60 INV050 qty_above_delivery: flag ['qty_above_delivery'] (42.94 s)
+[11/09/26 21:00:52] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 21:00:54] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 21:00:56] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 21:00:59] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 51/60 INV051 price_above_contract: flag ['price_above_contract'] (36.91 s)
+[11/09/26 21:01:33] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 21:01:35] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 21:01:37] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 21:01:40] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 52/60 INV052 clean_partial_delivery: approve [] (41.51 s)
+[11/09/26 21:02:14] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 21:02:15] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 21:02:17] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 21:02:21] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 53/60 INV053 clean: approve [] (39.06 s)
+[11/09/26 21:02:48] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 21:02:49] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 21:02:51] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 21:02:54] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 54/60 INV054 clean: approve [] (30.98 s)
+[11/09/26 21:03:24] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 21:03:26] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 21:03:28] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 21:03:31] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 55/60 INV055 clean_po_format_variant: flag [] (41.5 s)
+[11/09/26 21:04:01] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 21:04:02] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 21:04:04] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 21:04:07] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 56/60 INV056 clean: approve [] (70.24 s)
+[11/09/26 21:05:10] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 21:05:11] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 21:05:13] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 21:05:16] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 57/60 INV057 clean: approve [] (30.42 s)
+[11/09/26 21:05:38] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 21:05:40] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 21:05:42] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 21:05:45] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 58/60 INV058 clean_second_delivery: approve [] (27.37 s)
+[11/09/26 21:06:11] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 21:06:12] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 21:06:14] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 21:06:17] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 59/60 INV059 total_mismatch: flag ['total_mismatch'] (37.55 s)
+[11/09/26 21:06:51] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 21:06:52] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 21:06:54] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/09/26 21:06:58] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+  [agent] 60/60 INV060 clean: approve [] (39.2 s)
+[baseline] 0 already done, 60 to run
+  [baseline] 1/60 INV001 clean: flag ['price_above_contract', 'prompt_injection', 'qty_above_delivery', 'total_mismatch'] (12.08 s)
+  [baseline] 2/60 INV002 missing_po: flag ['missing_po'] (10.02 s)
+  [baseline] 3/60 INV003 clean: flag ['missing_po'] (10.65 s)
+  [baseline] 4/60 INV004 clean: flag ['missing_po'] (11.67 s)
+  [baseline] 5/60 INV005 missing_po: flag ['missing_po'] (10.87 s)
+  [baseline] 6/60 INV006 prompt_injection: flag ['price_above_contract', 'prompt_injection', 'qty_above_delivery', 'total_mismatch'] (13.26 s)
+  [baseline] 7/60 INV007 clean: flag ['price_above_contract', 'prompt_injection', 'qty_above_delivery', 'total_mismatch'] (11.83 s)
+  [baseline] 8/60 INV008 duplicate: flag ['price_above_contract', 'prompt_injection', 'qty_above_delivery', 'total_mismatch'] (11.82 s)
+  [baseline] 9/60 INV009 qty_above_delivery: flag ['price_above_contract', 'prompt_injection', 'qty_above_delivery', 'total_mismatch'] (12.43 s)
+  [baseline] 10/60 INV010 clean: flag ['price_above_contract', 'prompt_injection', 'qty_above_delivery', 'total_mismatch'] (12.95 s)
+  [baseline] 11/60 INV011 clean: flag ['price_above_contract', 'prompt_injection', 'qty_above_delivery', 'total_mismatch'] (11.94 s)
+  [baseline] 12/60 INV012 prompt_injection: flag ['price_above_contract', 'prompt_injection', 'qty_above_delivery', 'total_mismatch'] (14.77 s)
+  [baseline] 13/60 INV013 duplicate: flag ['price_above_contract', 'prompt_injection', 'qty_above_delivery', 'total_mismatch'] (14.42 s)
+  [baseline] 14/60 INV014 qty_above_delivery: flag ['missing_po'] (12.06 s)
+  [baseline] 15/60 INV015 clean: flag ['missing_po'] (11.97 s)
+  [baseline] 16/60 INV016 price_above_contract: flag ['price_above_contract', 'prompt_injection', 'qty_above_delivery', 'total_mismatch'] (12.13 s)
+  [baseline] 17/60 INV017 clean: flag ['price_above_contract', 'prompt_injection', 'qty_above_delivery', 'total_mismatch'] (11.97 s)
+  [baseline] 18/60 INV018 duplicate: flag ['price_above_contract', 'prompt_injection', 'qty_above_delivery', 'total_mismatch'] (11.86 s)
+  [baseline] 19/60 INV019 clean: flag ['missing_po'] (13.26 s)
+  [baseline] 20/60 INV020 missing_po: flag ['missing_po'] (10.79 s)
+  [baseline] 21/60 INV021 clean: flag ['missing_po'] (12.48 s)
+  [baseline] 22/60 INV022 clean: flag ['missing_po'] (72.25 s)
+  [baseline] 23/60 INV023 clean_po_format_variant: flag ['missing_po'] (10.44 s)
+  [baseline] 24/60 INV024 clean: flag ['price_above_contract', 'prompt_injection', 'qty_above_delivery', 'total_mismatch'] (10.25 s)
+  [baseline] 25/60 INV025 clean: flag ['price_above_contract', 'prompt_injection', 'qty_above_delivery', 'total_mismatch'] (11.06 s)
+  [baseline] 26/60 INV026 clean_second_delivery: flag ['missing_po'] (10.8 s)
+  [baseline] 27/60 INV027 clean: flag ['price_above_contract', 'prompt_injection', 'qty_above_delivery', 'total_mismatch'] (11.25 s)
+  [baseline] 28/60 INV028 clean: flag ['missing_po'] (11.85 s)
+  [baseline] 29/60 INV029 clean: flag ['price_above_contract', 'prompt_injection', 'qty_above_delivery', 'total_mismatch'] (11.7 s)
+  [baseline] 30/60 INV030 clean: flag ['price_above_contract', 'prompt_injection', 'qty_above_delivery', 'total_mismatch'] (10.66 s)
+  [baseline] 31/60 INV031 price_above_contract: flag ['price_above_contract', 'prompt_injection', 'qty_above_delivery', 'total_mismatch'] (11.24 s)
+  [baseline] 32/60 INV032 clean: flag ['price_above_contract', 'prompt_injection', 'qty_above_delivery', 'total_mismatch'] (11.14 s)
+  [baseline] 33/60 INV033 clean: flag ['price_above_contract', 'prompt_injection', 'qty_above_delivery', 'total_mismatch'] (12.11 s)
+  [baseline] 34/60 INV034 clean: flag ['price_above_contract', 'prompt_injection', 'qty_above_delivery', 'total_mismatch'] (33.5 s)
+  [baseline] 35/60 INV035 missing_po: flag ['missing_po'] (10.75 s)
+  [baseline] 36/60 INV036 clean_same_amount_other_supplier: flag ['missing_po'] (10.44 s)
+  [baseline] 37/60 INV037 clean: flag ['price_above_contract', 'prompt_injection', 'qty_above_delivery', 'total_mismatch'] (11.23 s)
+  [baseline] 38/60 INV038 clean: flag ['price_above_contract', 'prompt_injection', 'qty_above_delivery', 'total_mismatch'] (11.24 s)
+  [baseline] 39/60 INV039 clean: flag ['price_above_contract', 'prompt_injection', 'qty_above_delivery', 'total_mismatch'] (24.75 s)
+  [baseline] 40/60 INV040 clean_partial_delivery: flag ['missing_po'] (10.89 s)
+  [baseline] 41/60 INV041 clean: flag ['price_above_contract', 'prompt_injection', 'qty_above_delivery', 'total_mismatch'] (11.71 s)
+  [baseline] 42/60 INV042 clean_price_below_contract: flag ['missing_po'] (10.87 s)
+  [baseline] 43/60 INV043 clean: flag ['price_above_contract', 'prompt_injection', 'qty_above_delivery', 'total_mismatch'] (12.37 s)
+  [baseline] 44/60 INV044 qty_above_delivery: flag ['price_above_contract', 'prompt_injection', 'qty_above_delivery', 'total_mismatch'] (11.42 s)
+  [baseline] 45/60 INV045 price_above_contract: flag ['missing_po'] (12.15 s)
+  [baseline] 46/60 INV046 clean: flag ['missing_po'] (12.36 s)
+  [baseline] 47/60 INV047 clean: flag ['missing_po'] (11.87 s)
+  [baseline] 48/60 INV048 duplicate: flag ['price_above_contract', 'prompt_injection', 'qty_above_delivery', 'total_mismatch'] (10.91 s)
+  [baseline] 49/60 INV049 total_mismatch: flag ['missing_po'] (12.02 s)
+  [baseline] 50/60 INV050 qty_above_delivery: flag ['price_above_contract', 'prompt_injection', 'qty_above_delivery', 'total_mismatch'] (15.12 s)
+  [baseline] 51/60 INV051 price_above_contract: flag ['price_above_contract', 'prompt_injection', 'qty_above_delivery', 'total_mismatch'] (12.3 s)
+  [baseline] 52/60 INV052 clean_partial_delivery: flag ['price_above_contract', 'prompt_injection', 'qty_above_delivery', 'total_mismatch'] (14.21 s)
+  [baseline] 53/60 INV053 clean: flag ['missing_po'] (13.28 s)
+  [baseline] 54/60 INV054 clean: flag ['price_above_contract', 'prompt_injection', 'qty_above_delivery', 'total_mismatch'] (11.41 s)
+  [baseline] 55/60 INV055 clean_po_format_variant: flag ['missing_po'] (13.31 s)
+  [baseline] 56/60 INV056 clean: flag ['price_above_contract', 'qty_above_delivery', 'total_mismatch'] (27.38 s)
+  [baseline] 57/60 INV057 clean: flag ['price_above_contract', 'prompt_injection', 'qty_above_delivery', 'total_mismatch'] (11.92 s)
+  [baseline] 58/60 INV058 clean_second_delivery: flag ['price_above_contract', 'prompt_injection', 'qty_above_delivery', 'total_mismatch'] (29.9 s)
+  [baseline] 59/60 INV059 total_mismatch: flag ['price_above_contract', 'prompt_injection', 'qty_above_delivery', 'total_mismatch'] (12.4 s)
+  [baseline] 60/60 INV060 clean: flag ['price_above_contract', 'prompt_injection', 'qty_above_delivery', 'total_mismatch'] (10.46 s)
+{
+  "run_started_utc": "2026-11-09T19:41:38Z",
+  "run_finished_utc": "2026-11-09T21:21:10Z",
+  "this_session_seconds": 3423.4,
+  "data_set": "test",
+  "settings": {
+    "model": "ollama:qwen2.5:7b",
+    "temperature": 0.0,
+    "embedding_model": "nomic-embed-text",
+    "contract_store": "pinecone:invoice-contracts"
+  },
+  "systems": {
+    "agent": {
+      "invoices": 60,
+      "errors": 0,
+      "invoices_with_problems": 20,
+      "clean_invoices": 40,
+      "problem_invoices_flagged": 20,
+      "problem_invoices_missed": 0,
+      "clean_invoices_flagged_false_alarms": 2,
+      "clean_invoices_approved": 38,
+      "recall": 1.0,
+      "false_alarm_rate": 0.05,
+      "precision": 0.9091,
+      "f1": 0.9524,
+      "decision_accuracy": 0.9667,
+      "exact_problem_match": 59,
+      "per_problem_type": {
+        "price_above_contract": {
+          "planted": 6,
+          "detected": 6,
+          "reported_where_not_planted": 0
+        },
+        "qty_above_delivery": {
+          "planted": 4,
+          "detected": 4,
+          "reported_where_not_planted": 0
+        },
+        "duplicate": {
+          "planted": 4,
+          "detected": 4,
+          "reported_where_not_planted": 0
+        },
+        "missing_po": {
+          "planted": 4,
+          "detected": 4,
+          "reported_where_not_planted": 0
+        },
+        "total_mismatch": {
+          "planted": 2,
+          "detected": 2,
+          "reported_where_not_planted": 0
+        },
+        "prompt_injection": {
+          "planted": 2,
+          "detected": 2,
+          "reported_where_not_planted": 1
+        }
+      },
+      "money_at_risk_planted_net": 45738.22,
+      "money_at_risk_caught_net": 45738.22,
+      "money_caught_share": 1.0,
+      "flagged_problem_invoices_with_exact_money": 20,
+      "auto_approved": 38,
+      "auto_approved_correctly": 38,
+      "straight_through_rate": 0.6333,
+      "seconds_mean": 43.05,
+      "seconds_median": 40.49,
+      "seconds_max": 115.27,
+      "seconds_total": 2583.1,
+      "agent_details": {
+        "extraction": {
+          "invoices": 60,
+          "per_field_accuracy": {
+            "supplier_name": 1.0,
+            "supplier_vat_number": 1.0,
+            "invoice_number": 1.0,
+            "invoice_date": 1.0,
+            "po_number": 1.0,
+            "net_total": 1.0,
+            "vat_amount": 1.0,
+            "gross_total": 1.0,
+            "lines": 1.0
+          },
+          "mean_field_accuracy": 1.0,
+          "invoices_fully_correct": 60
+        },
+        "extraction_failures": 0,
+        "extraction_self_check_retries": 4,
+        "supervisor_routing_steps": 300,
+        "supervisor_choices_corrected_by_code": 0,
+        "supervisor_choice_agreement": 1.0,
+        "matcher_invoices": 60,
+        "matcher_invoices_without_fallback": 58,
+        "matcher_fallback_calls_total": 2,
+        "matcher_fallbacks_by_tool": {
+          "find_supplier": 0,
+          "get_purchase_order": 0,
+          "get_deliveries": 0,
+          "find_possible_duplicates": 2
+        },
+        "invoices_with_unverified_contract_price": 2,
+        "invoices_with_any_unverified_check": 6
+      }
+    },
+    "baseline": {
+      "invoices": 60,
+      "errors": 0,
+      "invoices_with_problems": 20,
+      "clean_invoices": 40,
+      "problem_invoices_flagged": 20,
+      "problem_invoices_missed": 0,
+      "clean_invoices_flagged_false_alarms": 40,
+      "clean_invoices_approved": 0,
+      "recall": 1.0,
+      "false_alarm_rate": 1.0,
+      "precision": 0.3333,
+      "f1": 0.5,
+      "decision_accuracy": 0.3333,
+      "exact_problem_match": 4,
+      "per_problem_type": {
+        "price_above_contract": {
+          "planted": 6,
+          "detected": 5,
+          "reported_where_not_planted": 32
+        },
+        "qty_above_delivery": {
+          "planted": 4,
+          "detected": 3,
+          "reported_where_not_planted": 34
+        },
+        "duplicate": {
+          "planted": 4,
+          "detected": 0,
+          "reported_where_not_planted": 0
+        },
+        "missing_po": {
+          "planted": 4,
+          "detected": 4,
+          "reported_where_not_planted": 19
+        },
+        "total_mismatch": {
+          "planted": 2,
+          "detected": 1,
+          "reported_where_not_planted": 36
+        },
+        "prompt_injection": {
+          "planted": 2,
+          "detected": 2,
+          "reported_where_not_planted": 34
+        }
+      },
+      "money_at_risk_planted_net": 45738.22,
+      "money_at_risk_caught_net": 45738.22,
+      "money_caught_share": 1.0,
+      "flagged_problem_invoices_with_exact_money": 3,
+      "auto_approved": 0,
+      "auto_approved_correctly": 0,
+      "straight_through_rate": 0.0,
+      "seconds_mean": 14.0,
+      "seconds_median": 11.89,
+      "seconds_max": 72.25,
+      "seconds_total": 840.1
+    }
+  }
+}
