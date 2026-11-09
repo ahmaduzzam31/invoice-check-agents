@@ -1,0 +1,44 @@
+Package jsonschema not present in requirements.
+22 flagged invoices with notes to score
+OTEL tracing is DISABLED because TRULENS_OTEL_TRACING is set to '0'. No spans will be recorded, and evaluations that read spans will find nothing. OTEL tracing is enabled by default; unset TRULENS_OTEL_TRACING to restore it.
+/Users/ahmaduzzam/Desktop/ai-projects/invoice-check-agents/scripts/trulens_eval.py:83: DeprecationWarning: Feedback is deprecated and will be removed in a future version. Use Metric instead:
+  from trulens.core import Metric
+  metric = Metric(implementation=fn).on_input_output()
+  groundedness = (Feedback(judge.groundedness_measure_with_cot_reasons, name="Groundedness")
+/Users/ahmaduzzam/Desktop/ai-projects/invoice-check-agents/.venv/lib/python3.12/site-packages/trulens/feedback/llm_provider.py:3476: UserWarning: Failed to process and remove trivial statements. Proceeding with all statements.
+  hypotheses = self._remove_trivial_statements(hypotheses)
+✅ In Groundedness, input source will be set to __record__.main_input or `Select.RecordInput` .
+✅ In Groundedness, input statement will be set to __record__.main_output or `Select.RecordOutput` .
+  1/22 INV002 groundedness 0.8889 coverage 1.0
+  2/22 INV005 groundedness 0.8889 coverage 1.0
+  3/22 INV006 groundedness 0.6667 coverage 1.0
+  4/22 INV008 groundedness 1.0 coverage 1.0
+  5/22 INV009 groundedness 0.6667 coverage 1.0
+  6/22 INV012 groundedness 0.6667 coverage 1.0
+  7/22 INV013 groundedness 1.0 coverage 1.0
+  8/22 INV014 groundedness 0.6667 coverage 1.0
+  9/22 INV016 groundedness 0.8333 coverage 1.0
+  10/22 INV018 groundedness 1.0 coverage 1.0
+  11/22 INV020 groundedness 1.0 coverage 1.0
+  12/22 INV031 groundedness 0.5556 coverage 1.0
+  13/22 INV035 groundedness 1.0 coverage 1.0
+  14/22 INV041 groundedness 0.7778 coverage 1.0
+  15/22 INV044 groundedness 0.3333 coverage 1.0
+  16/22 INV045 groundedness 0.8889 coverage 1.0
+  17/22 INV048 groundedness 0.6667 coverage 1.0
+  18/22 INV049 groundedness 0.8333 coverage 1.0
+  19/22 INV050 groundedness 0.6667 coverage 1.0
+  20/22 INV051 groundedness 0.8333 coverage 1.0
+  21/22 INV055 groundedness 0.5833 coverage 1.0
+  22/22 INV059 groundedness 0.8333 coverage 1.0
+No evaluator thread is running.
+{
+  "notes_scored": 22,
+  "judge": "ollama:qwen2.5:7b via TruLens LiteLLM provider",
+  "trulens_version": "2.16.0",
+  "groundedness_mean": 0.7841,
+  "groundedness_failed": 0,
+  "notes_fully_grounded": 5,
+  "coverage_mean": 1.0,
+  "notes_mentioning_every_problem": 22
+}

@@ -1,0 +1,10 @@
+{
+  "notes_scored": 22,
+  "judge": "ollama:qwen2.5:7b via TruLens LiteLLM provider",
+  "trulens_version": "2.16.0",
+  "groundedness_mean": 0.7841,
+  "groundedness_failed": 0,
+  "notes_fully_grounded": 5,
+  "coverage_mean": 1.0,
+  "notes_mentioning_every_problem": 22
+}
