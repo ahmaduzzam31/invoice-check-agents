@@ -1,0 +1,88 @@
+{
+  "note": "Top-1 result counts as correct only if it is from the right supplier AND contains the exact item code and agreed price (or the right payment days).",
+  "with_supplier_filter": {
+    "price_questions": 60,
+    "price_top1_correct": 60,
+    "terms_questions": 12,
+    "terms_top1_correct": 12,
+    "misses": []
+  },
+  "without_supplier_filter": {
+    "price_questions": 60,
+    "price_top1_correct": 57,
+    "terms_questions": 12,
+    "terms_top1_correct": 1,
+    "misses": [
+      {
+        "question": "Agreed unit price for BIP-ROLL Roller sleeve 9in (pack of 10)",
+        "expected_supplier": "SUP04",
+        "got": "SUP12 / Schedule 1: Agreed prices (EUR, excluding VAT)"
+      },
+      {
+        "question": "Agreed unit price for BRW-BAND Stainless steel banding 19mm",
+        "expected_supplier": "SUP05",
+        "got": "SUP09 / Schedule 1: Agreed prices (EUR, excluding VAT)"
+      },
+      {
+        "question": "Agreed unit price for BSC-SPRAY Marker spray paint",
+        "expected_supplier": "SUP12",
+        "got": "SUP04 / 2. Prices"
+      },
+      {
+        "question": "payment terms",
+        "expected_supplier": "SUP01",
+        "got": "SUP02 / 4. Payment terms"
+      },
+      {
+        "question": "payment terms",
+        "expected_supplier": "SUP03",
+        "got": "SUP02 / 4. Payment terms"
+      },
+      {
+        "question": "payment terms",
+        "expected_supplier": "SUP04",
+        "got": "SUP02 / 4. Payment terms"
+      },
+      {
+        "question": "payment terms",
+        "expected_supplier": "SUP05",
+        "got": "SUP02 / 4. Payment terms"
+      },
+      {
+        "question": "payment terms",
+        "expected_supplier": "SUP06",
+        "got": "SUP02 / 4. Payment terms"
+      },
+      {
+        "question": "payment terms",
+        "expected_supplier": "SUP07",
+        "got": "SUP02 / 4. Payment terms"
+      },
+      {
+        "question": "payment terms",
+        "expected_supplier": "SUP08",
+        "got": "SUP02 / 4. Payment terms"
+      },
+      {
+        "question": "payment terms",
+        "expected_supplier": "SUP09",
+        "got": "SUP02 / 4. Payment terms"
+      },
+      {
+        "question": "payment terms",
+        "expected_supplier": "SUP10",
+        "got": "SUP02 / 4. Payment terms"
+      },
+      {
+        "question": "payment terms",
+        "expected_supplier": "SUP11",
+        "got": "SUP02 / 4. Payment terms"
+      },
+      {
+        "question": "payment terms",
+        "expected_supplier": "SUP12",
+        "got": "SUP02 / 4. Payment terms"
+      }
+    ]
+  }
+}
