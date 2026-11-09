@@ -1,0 +1,11 @@
+{
+  "built_utc": "2026-11-09T13:08:51Z",
+  "index": "invoice-contracts",
+  "namespace": "contracts",
+  "embedding_model": "nomic-embed-text",
+  "dimension": 768,
+  "contracts": 12,
+  "sections": 96,
+  "vectors_in_namespace": 96,
+  "embed_and_upload_seconds": 4.59
+}
