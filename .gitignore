@@ -19,6 +19,8 @@ data/uploads/
 *.sqlite
 *.sqlite3
 *.db-journal
+*-wal
+*-shm
 
 # Vector database and model files
 chroma_db/
