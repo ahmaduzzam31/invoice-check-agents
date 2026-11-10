@@ -1,0 +1,27 @@
+name: tests
+
+# Runs on every push and pull request. No model and no API keys are needed:
+# the tests cover the SQL tools, the MCP server, the money-check rules, the graph routing and the API.
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install packages
+        run: pip install -r requirements.txt
+      - name: Build the simulated data (seed 42, same files every time)
+        run: python scripts/generate_data.py > /dev/null
+      - name: Run the tests
+        run: python -m pytest -q
