@@ -1,0 +1,184 @@
+{
+  "note": "SIMULATED data. Each query is in sql/; rows are exactly what the query returned.",
+  "queries": [
+    {
+      "file": "sql/01_money_at_risk_by_problem.sql",
+      "sql": "-- Money at risk by problem type: what was planted, and what the agent system caught.\n-- Each problem invoice is counted once, under its main problem (hidden instructions are counted\n-- under the overcharge they came with). All data is SIMULATED.\nSELECT\n    p.main_problem                                              AS problem_type,\n    COUNT(*)                                                    AS invoices,\n    ROUND(SUM(i.money_at_risk_net), 2)                          AS money_at_risk_net_eur,\n    SUM(CASE WHEN a.decision = 'flag' THEN 1 ELSE 0 END)        AS invoices_flagged_by_agents,\n    ROUND(SUM(CASE WHEN a.decision = 'flag' THEN i.money_at_risk_net ELSE 0 END), 2)\n                                                                AS money_caught_net_eur\nFROM invoices AS i\nJOIN main_problem AS p USING (invoice_id)\nJOIN agent_results AS a USING (invoice_id)\nGROUP BY p.main_problem\nORDER BY money_at_risk_net_eur DESC;\n",
+      "rows": [
+        {
+          "problem_type": "duplicate",
+          "invoices": 4,
+          "money_at_risk_net_eur": 33389.5,
+          "invoices_flagged_by_agents": 4,
+          "money_caught_net_eur": 33389.5
+        },
+        {
+          "problem_type": "missing_po",
+          "invoices": 4,
+          "money_at_risk_net_eur": 10707.38,
+          "invoices_flagged_by_agents": 4,
+          "money_caught_net_eur": 10707.38
+        },
+        {
+          "problem_type": "price_above_contract",
+          "invoices": 6,
+          "money_at_risk_net_eur": 982.33,
+          "invoices_flagged_by_agents": 6,
+          "money_caught_net_eur": 982.33
+        },
+        {
+          "problem_type": "qty_above_delivery",
+          "invoices": 4,
+          "money_at_risk_net_eur": 346.94,
+          "invoices_flagged_by_agents": 4,
+          "money_caught_net_eur": 346.94
+        },
+        {
+          "problem_type": "total_mismatch",
+          "invoices": 2,
+          "money_at_risk_net_eur": 312.07,
+          "invoices_flagged_by_agents": 2,
+          "money_caught_net_eur": 312.07
+        }
+      ]
+    },
+    {
+      "file": "sql/02_suppliers_by_risk.sql",
+      "sql": "-- Suppliers ranked by money at risk on their invoices. All data is SIMULATED.\nSELECT\n    s.supplier_id,\n    s.name                                                      AS supplier,\n    COUNT(*)                                                    AS invoices,\n    SUM(CASE WHEN i.has_problem = 1 THEN 1 ELSE 0 END)          AS invoices_with_problems,\n    ROUND(SUM(i.gross_total), 2)                                AS invoiced_gross_eur,\n    ROUND(SUM(i.money_at_risk_net), 2)                          AS money_at_risk_net_eur,\n    GROUP_CONCAT(CASE WHEN i.has_problem = 1 THEN i.scenario END, ', ') AS problem_types\nFROM invoices AS i\nJOIN erp.suppliers AS s USING (supplier_id)\nGROUP BY s.supplier_id, s.name\nORDER BY money_at_risk_net_eur DESC, invoices_with_problems DESC, s.supplier_id;\n",
+      "rows": [
+        {
+          "supplier_id": "SUP04",
+          "supplier": "Boyne Industrial Paints Ltd",
+          "invoices": 5,
+          "invoices_with_problems": 2,
+          "invoiced_gross_eur": 120961.6,
+          "money_at_risk_net_eur": 22144.84,
+          "problem_types": "prompt_injection, duplicate"
+        },
+        {
+          "supplier_id": "SUP08",
+          "supplier": "Lee Hire and Access Ltd",
+          "invoices": 5,
+          "invoices_with_problems": 1,
+          "invoiced_gross_eur": 66931.5,
+          "money_at_risk_net_eur": 11252.9,
+          "problem_types": "duplicate"
+        },
+        {
+          "supplier_id": "SUP10",
+          "supplier": "Erne Welding Supplies Ltd",
+          "invoices": 5,
+          "invoices_with_problems": 2,
+          "invoiced_gross_eur": 24857.79,
+          "money_at_risk_net_eur": 9198.55,
+          "problem_types": "prompt_injection, missing_po"
+        },
+        {
+          "supplier_id": "SUP01",
+          "supplier": "Liffey Scaffold Supplies Ltd",
+          "invoices": 5,
+          "invoices_with_problems": 3,
+          "invoiced_gross_eur": 8513.48,
+          "money_at_risk_net_eur": 1016.69,
+          "problem_types": "missing_po, qty_above_delivery, total_mismatch"
+        },
+        {
+          "supplier_id": "SUP05",
+          "supplier": "Barrow Insulation Products Ltd",
+          "invoices": 5,
+          "invoices_with_problems": 2,
+          "invoiced_gross_eur": 7214.25,
+          "money_at_risk_net_eur": 904.4,
+          "problem_types": "missing_po, total_mismatch"
+        },
+        {
+          "supplier_id": "SUP03",
+          "supplier": "Corrib Safety Wear Ltd",
+          "invoices": 5,
+          "invoices_with_problems": 3,
+          "invoiced_gross_eur": 2881.5,
+          "money_at_risk_net_eur": 369.9,
+          "problem_types": "duplicate, price_above_contract, qty_above_delivery"
+        },
+        {
+          "supplier_id": "SUP09",
+          "supplier": "Moy Steel Stockholders Ltd",
+          "invoices": 5,
+          "invoices_with_problems": 1,
+          "invoiced_gross_eur": 62899.13,
+          "money_at_risk_net_eur": 359.4,
+          "problem_types": "price_above_contract"
+        },
+        {
+          "supplier_id": "SUP11",
+          "supplier": "Foyle Timber and Boards Ltd",
+          "invoices": 5,
+          "invoices_with_problems": 2,
+          "invoiced_gross_eur": 10531.75,
+          "money_at_risk_net_eur": 276.89,
+          "problem_types": "qty_above_delivery, missing_po"
+        },
+        {
+          "supplier_id": "SUP07",
+          "supplier": "Suir Electrical Wholesale Ltd",
+          "invoices": 5,
+          "invoices_with_problems": 1,
+          "invoiced_gross_eur": 4035.35,
+          "money_at_risk_net_eur": 129.2,
+          "problem_types": "duplicate"
+        },
+        {
+          "supplier_id": "SUP12",
+          "supplier": "Blackwater Site Consumables Ltd",
+          "invoices": 5,
+          "invoices_with_problems": 1,
+          "invoiced_gross_eur": 11914.99,
+          "money_at_risk_net_eur": 37.6,
+          "problem_types": "price_above_contract"
+        },
+        {
+          "supplier_id": "SUP02",
+          "supplier": "Shannon Fixings and Fasteners Ltd",
+          "invoices": 5,
+          "invoices_with_problems": 1,
+          "invoiced_gross_eur": 9272.71,
+          "money_at_risk_net_eur": 36.15,
+          "problem_types": "price_above_contract"
+        },
+        {
+          "supplier_id": "SUP06",
+          "supplier": "Slaney Valves and Fittings Ltd",
+          "invoices": 5,
+          "invoices_with_problems": 1,
+          "invoiced_gross_eur": 23578.98,
+          "money_at_risk_net_eur": 11.7,
+          "problem_types": "qty_above_delivery"
+        }
+      ]
+    },
+    {
+      "file": "sql/03_outcomes.sql",
+      "sql": "-- What happened to the 60 invoices: approved without a person, rightly held, or held by mistake.\n-- All data is SIMULATED.\nSELECT\n    CASE\n        WHEN a.decision = 'approve' AND i.has_problem = 0 THEN '1 approved automatically (correct)'\n        WHEN a.decision = 'approve' AND i.has_problem = 1 THEN '2 approved automatically (WRONG: problem missed)'\n        WHEN a.decision = 'flag'    AND i.has_problem = 1 THEN '3 held for a person (correct: problem found)'\n        ELSE                                                   '4 held for a person (false alarm)'\n    END                                                         AS outcome,\n    COUNT(*)                                                    AS invoices,\n    ROUND(SUM(i.gross_total), 2)                                AS gross_value_eur,\n    ROUND(SUM(i.money_at_risk_net), 2)                          AS money_at_risk_net_eur\nFROM invoices AS i\nJOIN agent_results AS a USING (invoice_id)\nGROUP BY outcome\nORDER BY outcome;\n",
+      "rows": [
+        {
+          "outcome": "1 approved automatically (correct)",
+          "invoices": 38,
+          "gross_value_eur": 207926.42,
+          "money_at_risk_net_eur": 0.0
+        },
+        {
+          "outcome": "3 held for a person (correct: problem found)",
+          "invoices": 20,
+          "gross_value_eur": 96011.51,
+          "money_at_risk_net_eur": 45738.22
+        },
+        {
+          "outcome": "4 held for a person (false alarm)",
+          "invoices": 2,
+          "gross_value_eur": 49655.1,
+          "money_at_risk_net_eur": 0.0
+        }
+      ]
+    }
+  ]
+}
